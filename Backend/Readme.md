@@ -87,6 +87,13 @@ Requires a valid JWT token in the Authorization header:
 
 
 
+## `/users/logout` Endpoint
+
+### Description
+
+Logout the current user and blacklist the token provided in cookie or headers
+
+### HTTP Method
 
 `GET`
 
@@ -101,7 +108,3 @@ Requires a valid JWT token in the Authorization header or cookie:
   - `email` (string): User's email address (must be a valid email).
   - `password` (string): User's password (minimum 6 characters).
 - `token` (String): JWT Token## `/captains/register` Endpoint
-
-
-}
-```
